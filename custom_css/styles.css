@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:verdana;
+    box-sizing: border-box;
+}
+
+#pre-loader{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#007398;
+    position: fixed;
+    z-index: 1000;
+    overflow: hidden;       
+}
+.loading-container{
+    width:4rem;
+    height:4rem;
+            /* border:2px solid #fff; */
+    display:flex;
+    flex-wrap:wrap;
+}
+.box{
+    width:1.85rem;
+    height:1.85rem;
+            /* border:1px solid #000; */
+    display:inline-block;
+    background-color:rgba(255,255,255,1);
+    animation:bright .6s ease-in infinite alternate;
+}
+@keyframes bright{
+    100%{
+      opacity:0;
+    }
+}
+    #b2,#b3{
+      animation-delay:.6s;
+}        
+
+#logo{
+    background-color:#000;
+    color:#fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#edu{
+    color:#0ff;
+    font-size:1.3rem;
+}
+.container-fluid{
+    background:#000 url(../bg/bg.jpg) no-repeat center;
+    background-size:cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#c1{
+    background-color: #000;
+    height: 100%;
+}
+#c11{
+    background:#f00 url(../bg/4.jpg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:100%;
+    letter-spacing:.2px;
+    overflow: hidden;
+}
+#c111{
+    color:#fff;
+    font-size:100%;
+}
+#c1111{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#c2{
+    background-color: #000;
+    height: 100%;
+}
+#c22{
+    background:#f00 url(../bg/2.jpg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:1.2rem;
+    letter-spacing:.2px;
+    overflow: hidden;
+}
+#c222{
+    color:#fff;
+    font-size:100%;
+}
+#c2222{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#c3{
+    background-color: #000;
+    height: 100%;
+}
+#c33{
+    background:#f00 url(../bg/6.jpg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:1.2rem;
+    letter-spacing:.2px;
+    overflow: hidden;
+}
+#c333{
+    color:#fff;
+    font-size:100%;
+}
+#c3333{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#c4{
+    background-color: #000;
+    height: 100%;
+}
+#c44{
+    background:#f00 url(../bg/3.jpg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:1.2rem;
+    overflow: hidden;
+    letter-spacing:.2px;
+}
+#c444{
+    color:#fff;
+    font-size:100%;
+}
+#c4444{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#c5{
+    background-color: #000;
+    height: 100%;
+}
+#c55{
+    background:#f00 url(../bg/5.jpeg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:1.2rem;
+    letter-spacing:.2px;
+    overflow: hidden;
+}
+#c555{
+    color:#fff;
+    font-size:100%;
+}
+#c5555{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#c6{
+    background-color: #000;
+    height: 100%;
+}
+#c66{
+    background:#f00 url(../bg/1.jpg) no-repeat center center;
+    background-size:cover;
+    padding:5rem;
+    color:#fff;
+    font-size:1.2rem;
+    letter-spacing:.2px;
+    overflow: hidden;
+}
+#c666{
+    color:#fff;
+    font-size:100%;
+}
+#c6666{
+    background-color:lightblue;
+    height:2.5rem;
+}
+
+#foot{
+    /* background-color: #000; */
+    color:#fff;
+    font-size:100%;
+}
+.c77{
+    background-color:#000;
+    color:#fff;
+}
+#c7{
+    font-size:1.2rem;
+    color:#0f0;
+}
+.link{
+    text-decoration: none;
+    color:#000;
+    cursor: pointer;
+}
+#c1111:hover{
+    background-color: #f00;
+    color:#fff;
+}
+#c2222:hover{
+    background-color: #f00;
+    color:#fff;
+}
+#c3333:hover{
+    background-color: #f00;
+    color:#fff;
+}
+#c4444:hover{
+    background-color: #f00;
+    color:#fff;
+}
+#c5555:hover{
+    background-color: #f00;
+    color:#fff;
+}
+#c6666:hover{
+    background-color: #f00;
+    color:#fff;
+}
+/* .container{
+    border:2px solid #000;
+} */
